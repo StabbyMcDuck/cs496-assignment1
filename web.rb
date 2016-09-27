@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  Time.now.strftime("%d/%m/%Y %H:%M")
+  "The current date and time: " Time.now.strftime("%d/%m/%Y %H:%M")
 end
