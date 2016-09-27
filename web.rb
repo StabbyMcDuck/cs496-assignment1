@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "Hello, world"
+  Time.now.strftime("%d/%m/%Y %H:%M")
 end
